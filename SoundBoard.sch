@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1034,144 +1035,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-AnalogIC">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find all manner of analog ICs- DACs, ADCs, video chips, op-amps, and others.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt;Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SO014">
-<wire x1="4.8768" y1="2.1463" x2="-3.6068" y2="2.1463" width="0.1524" layer="21"/>
-<wire x1="4.8768" y1="-2.1463" x2="5.2578" y2="-1.7653" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.9878" y1="1.7653" x2="-3.6068" y2="2.1463" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.8768" y1="2.1463" x2="5.2578" y2="1.7653" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.9878" y1="-1.7653" x2="-3.6068" y2="-2.1463" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.6068" y1="-2.1463" x2="4.8768" y2="-2.1463" width="0.1524" layer="21"/>
-<wire x1="5.2578" y1="-1.7653" x2="5.2578" y2="1.7653" width="0.1524" layer="21"/>
-<wire x1="-3.9878" y1="1.7653" x2="-3.9878" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.9878" y1="1.27" x2="-3.9878" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.9878" y1="-1.27" x2="-3.9878" y2="-1.7653" width="0.1524" layer="21"/>
-<wire x1="-3.9878" y1="1.27" x2="-3.9878" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
-<smd name="1" x="-3.175" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="2" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="3" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="4" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="5" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="6" x="3.175" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="7" x="4.445" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="8" x="4.445" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="9" x="3.175" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="10" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="11" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="12" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="13" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="14" x="-3.175" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<text x="-4.318" y="-2.6035" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-3.429" y1="-2.2733" x2="-2.921" y2="-2.1463" layer="21"/>
-<rectangle x1="-3.429" y1="-2.2733" x2="-2.921" y2="-2.1463" layer="21"/>
-<rectangle x1="-3.429" y1="-3.429" x2="-2.921" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.159" y1="-2.2733" x2="-1.651" y2="-2.1463" layer="21"/>
-<rectangle x1="-2.159" y1="-3.429" x2="-1.651" y2="-1.9558" layer="51"/>
-<rectangle x1="-0.889" y1="-2.2733" x2="-0.381" y2="-2.1463" layer="21"/>
-<rectangle x1="-0.889" y1="-3.429" x2="-0.381" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="-3.429" x2="0.889" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="-2.2733" x2="0.889" y2="-2.1463" layer="21"/>
-<rectangle x1="1.651" y1="-2.2733" x2="2.159" y2="-2.1463" layer="21"/>
-<rectangle x1="1.651" y1="-3.429" x2="2.159" y2="-1.9558" layer="51"/>
-<rectangle x1="2.921" y1="-2.2733" x2="3.429" y2="-2.1463" layer="21"/>
-<rectangle x1="2.921" y1="-3.429" x2="3.429" y2="-1.9558" layer="51"/>
-<rectangle x1="4.191" y1="-2.2733" x2="4.699" y2="-2.1463" layer="21"/>
-<rectangle x1="4.191" y1="-3.429" x2="4.699" y2="-1.9558" layer="51"/>
-<rectangle x1="-3.429" y1="2.1463" x2="-2.921" y2="2.2733" layer="21"/>
-<rectangle x1="-3.429" y1="2.1463" x2="-2.921" y2="2.2733" layer="21"/>
-<rectangle x1="-3.429" y1="2.2733" x2="-2.921" y2="3.7465" layer="51"/>
-<rectangle x1="-2.159" y1="2.1463" x2="-1.651" y2="2.2733" layer="21"/>
-<rectangle x1="-2.159" y1="2.2733" x2="-1.651" y2="3.7465" layer="51"/>
-<rectangle x1="-0.889" y1="2.1463" x2="-0.381" y2="2.2733" layer="21"/>
-<rectangle x1="-0.889" y1="2.2733" x2="-0.381" y2="3.7465" layer="51"/>
-<rectangle x1="0.381" y1="2.1463" x2="0.889" y2="2.2733" layer="21"/>
-<rectangle x1="0.381" y1="2.2733" x2="0.889" y2="3.7465" layer="51"/>
-<rectangle x1="1.651" y1="2.1463" x2="2.159" y2="2.2733" layer="21"/>
-<rectangle x1="1.651" y1="2.2733" x2="2.159" y2="3.7465" layer="51"/>
-<rectangle x1="2.921" y1="2.1463" x2="3.429" y2="2.2733" layer="21"/>
-<rectangle x1="2.921" y1="2.2733" x2="3.429" y2="3.7465" layer="51"/>
-<rectangle x1="4.191" y1="2.1463" x2="4.699" y2="2.2733" layer="21"/>
-<rectangle x1="4.191" y1="2.2733" x2="4.699" y2="3.7465" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LMV324">
-<wire x1="12.7" y1="0" x2="5.08" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-3.048" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="5.08" y2="3.048" width="0.254" layer="94"/>
-<pin name="-IN" x="-2.54" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="+IN" x="-2.54" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="-V" x="5.08" y="-7.62" length="short" direction="pwr" rot="R90"/>
-<pin name="OUT" x="15.24" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="+V" x="5.08" y="7.62" length="short" direction="pwr" rot="R270"/>
-<text x="1.016" y="1.778" size="1.778" layer="94">-</text>
-<text x="0.762" y="-3.302" size="1.778" layer="94">+</text>
-<wire x1="5.08" y1="3.048" x2="12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-3.048" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="3.048" width="0.1524" layer="94"/>
-<text x="7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="LMV324_2">
-<wire x1="12.7" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="12.7" y2="0" width="0.254" layer="94"/>
-<pin name="-IN" x="-2.54" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="+IN" x="-2.54" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="15.24" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<text x="0.508" y="1.778" size="1.778" layer="94">-</text>
-<text x="0.508" y="-3.302" size="1.778" layer="94">+</text>
-<text x="7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LMV324" prefix="IC">
-<description>Jellybean quad op-amp</description>
-<gates>
-<gate name="G1" symbol="LMV324" x="-7.62" y="0" swaplevel="1"/>
-<gate name="G3" symbol="LMV324_2" x="0" y="-40.64" swaplevel="1"/>
-<gate name="G2" symbol="LMV324_2" x="45.72" y="-2.54" swaplevel="1"/>
-<gate name="G4" symbol="LMV324_2" x="45.72" y="-40.64" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="SO014">
-<connects>
-<connect gate="G1" pin="+IN" pad="3"/>
-<connect gate="G1" pin="+V" pad="4"/>
-<connect gate="G1" pin="-IN" pad="2"/>
-<connect gate="G1" pin="-V" pad="11"/>
-<connect gate="G1" pin="OUT" pad="1"/>
-<connect gate="G2" pin="+IN" pad="10"/>
-<connect gate="G2" pin="-IN" pad="9"/>
-<connect gate="G2" pin="OUT" pad="8"/>
-<connect gate="G3" pin="+IN" pad="5"/>
-<connect gate="G3" pin="-IN" pad="6"/>
-<connect gate="G3" pin="OUT" pad="7"/>
-<connect gate="G4" pin="+IN" pad="12"/>
-<connect gate="G4" pin="-IN" pad="13"/>
-<connect gate="G4" pin="OUT" pad="14"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-08227"/>
-<attribute name="VALUE" value="LMV324" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -1365,6 +1228,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.1" y="-1.284" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="21"/>
 </package>
+<package name="9.7ELECTRET">
+<circle x="0" y="0" radius="4.801" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.3" width="0.127" layer="21"/>
+<pad name="+" x="1.3" y="2" drill="0.6" diameter="1.778"/>
+<pad name="-" x="-1.3" y="2" drill="0.6" diameter="1.778"/>
+<text x="-10.4" y="-7.3" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-10.7" y="-5.6" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -1377,6 +1248,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="ELECTRET">
+<wire x1="1.27" y1="-1.27" x2="2.032" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-0.254" x2="2.032" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.254" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.302" y2="-1.27" width="0.1524" layer="94"/>
+<circle x="2.286" y="-1.27" radius="2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="4.826" y1="-3.81" x2="5.334" y2="1.27" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1476,6 +1361,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ELECTRET" prefix="Q" uservalue="yes">
+<description>&lt;b&gt;Electret microphone&lt;/b&gt;
+&lt;p&gt;
+Thru hole 2.54mm spacing with 9.7mm diameter</description>
+<gates>
+<gate name="G$1" symbol="ELECTRET" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="9.7ELECTRET">
+<connects>
+<connect gate="G$1" pin="1" pad="-"/>
+<connect gate="G$1" pin="2" pad="+"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2441,6 +2345,117 @@ No silk outline, but tDocu layer shows pin location.
 </deviceset>
 </devicesets>
 </library>
+<library name="LMV324">
+<packages>
+<package name="QFN-16_3X3">
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.2" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.15" x2="-1.5" y2="1.2" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="1.2" x2="-1.2" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="1.5" x2="-1.15" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.15" y1="1.5" x2="1.5" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.15" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1.15" x2="1.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.15" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-1.15" x2="-1.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.15" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="2.2" x2="-2.2" y2="-2.2" width="0.05" layer="39"/>
+<wire x1="-2.2" y1="-2.2" x2="2.2" y2="-2.2" width="0.05" layer="39"/>
+<wire x1="2.2" y1="-2.2" x2="2.2" y2="2.2" width="0.05" layer="39"/>
+<wire x1="2.2" y1="2.2" x2="-2.2" y2="2.2" width="0.05" layer="39"/>
+<text x="-1.901090625" y="2.1012" size="1.27073125" layer="25">&gt;NAME</text>
+<text x="-2.20263125" y="-3.404059375" size="1.27151875" layer="27">&gt;VALUE</text>
+<circle x="-2.3" y="0.8" radius="0.14141875" width="0.127" layer="21"/>
+<circle x="-2.3" y="0.8" radius="0.1" width="0.127" layer="21"/>
+<circle x="-2.33" y="0.84" radius="0.04471875" width="0.127" layer="21"/>
+<rectangle x1="-0.4750125" y1="-0.4750125" x2="0.475" y2="0.475" layer="31"/>
+<smd name="1" x="-1.45" y="0.75" dx="0.9" dy="0.3" layer="1" roundness="100"/>
+<smd name="2" x="-1.45" y="0.25" dx="0.9" dy="0.3" layer="1" roundness="100"/>
+<smd name="3" x="-1.45" y="-0.25" dx="0.9" dy="0.3" layer="1" roundness="100"/>
+<smd name="4" x="-1.45" y="-0.75" dx="0.9" dy="0.3" layer="1" roundness="100"/>
+<smd name="5" x="-0.75" y="-1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-0.25" y="-1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="0.25" y="-1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="0.75" y="-1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="1.45" y="-0.75" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="10" x="1.45" y="-0.25" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="11" x="1.45" y="0.25" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="12" x="1.45" y="0.75" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R180"/>
+<smd name="13" x="0.75" y="1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="14" x="0.25" y="1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="15" x="-0.25" y="1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="16" x="-0.75" y="1.45" dx="0.9" dy="0.3" layer="1" roundness="100" rot="R270"/>
+<smd name="17" x="0" y="0" dx="1.5" dy="1.5" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LMV324">
+<wire x1="12.7" y1="0" x2="5.08" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.048" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="3.048" width="0.254" layer="94"/>
+<pin name="-IN" x="-2.54" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-2.54" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="-V" x="5.08" y="-7.62" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="15.24" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="+V" x="5.08" y="7.62" length="short" direction="pwr" rot="R270"/>
+<text x="1.016" y="1.778" size="1.778" layer="94">-</text>
+<text x="0.762" y="-3.302" size="1.778" layer="94">+</text>
+<wire x1="5.08" y1="3.048" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="3.048" width="0.1524" layer="94"/>
+<text x="7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LMV324_2">
+<wire x1="12.7" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="12.7" y2="0" width="0.254" layer="94"/>
+<pin name="-IN" x="-2.54" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-2.54" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="15.24" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<text x="0.508" y="1.778" size="1.778" layer="94">-</text>
+<text x="0.508" y="-3.302" size="1.778" layer="94">+</text>
+<text x="7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LMV324QT">
+<gates>
+<gate name="G$1" symbol="LMV324" x="-38.1" y="20.32"/>
+<gate name="G$2" symbol="LMV324_2" x="-38.1" y="-5.08"/>
+<gate name="G$3" symbol="LMV324_2" x="7.62" y="20.32"/>
+<gate name="G$4" symbol="LMV324_2" x="7.62" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="QFN-16_3X3">
+<connects>
+<connect gate="G$1" pin="+IN" pad="1"/>
+<connect gate="G$1" pin="+V" pad="2"/>
+<connect gate="G$1" pin="-IN" pad="16"/>
+<connect gate="G$1" pin="-V" pad="11"/>
+<connect gate="G$1" pin="OUT" pad="15"/>
+<connect gate="G$2" pin="+IN" pad="4"/>
+<connect gate="G$2" pin="-IN" pad="5"/>
+<connect gate="G$2" pin="OUT" pad="6"/>
+<connect gate="G$3" pin="+IN" pad="9"/>
+<connect gate="G$3" pin="-IN" pad="8"/>
+<connect gate="G$3" pin="OUT" pad="7"/>
+<connect gate="G$4" pin="+IN" pad="12"/>
+<connect gate="G$4" pin="-IN" pad="13"/>
+<connect gate="G$4" pin="OUT" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2455,7 +2470,6 @@ No silk outline, but tDocu layer shows pin location.
 <part name="C1" library="Adafruit Feather 32u4 Bluefruit LE" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0402MP" value="2u2"/>
 <part name="R1" library="Adafruit PowerBoost 1000C Rev B" deviceset="MICROBUILDER_RESISTOR" device="_0402MP" value="1K"/>
 <part name="R2" library="Adafruit PowerBoost 1000C Rev B" deviceset="MICROBUILDER_RESISTOR" device="_0402MP" value="10K"/>
-<part name="IC1" library="SparkFun-AnalogIC" deviceset="LMV324" device="" value="LMV324"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="Adafruit PowerBoost 1000C Rev B" deviceset="MICROBUILDER_RESISTOR" device="_0402MP" value="100K"/>
@@ -2481,6 +2495,9 @@ No silk outline, but tDocu layer shows pin location.
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="LMV324" deviceset="LMV324QT" device=""/>
+<part name="Q1" library="adafruit" deviceset="ELECTRET" device=""/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2491,7 +2508,6 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="C1" gate="G$1" x="-25.4" y="12.7" rot="R90"/>
 <instance part="R1" gate="G$1" x="-12.7" y="12.7"/>
 <instance part="R2" gate="G$1" x="-33.02" y="20.32" rot="R90"/>
-<instance part="IC1" gate="G1" x="55.88" y="71.12"/>
 <instance part="SUPPLY2" gate="G$1" x="60.96" y="81.28"/>
 <instance part="GND1" gate="1" x="60.96" y="58.42"/>
 <instance part="R3" gate="G$1" x="5.08" y="22.86"/>
@@ -2499,8 +2515,6 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="GND2" gate="1" x="-58.42" y="-2.54"/>
 <instance part="SUPPLY3" gate="G$1" x="-58.42" y="25.4"/>
 <instance part="SUPPLY4" gate="G$1" x="-33.02" y="27.94"/>
-<instance part="IC1" gate="G3" x="30.48" y="12.7"/>
-<instance part="IC1" gate="G2" x="96.52" y="20.32"/>
 <instance part="D1" gate="G$1" x="53.34" y="12.7"/>
 <instance part="C3" gate="G$1" x="66.04" y="7.62" rot="R180"/>
 <instance part="R4" gate="G$1" x="76.2" y="12.7"/>
@@ -2509,7 +2523,6 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="R7" gate="G$1" x="101.6" y="33.02" rot="R180"/>
 <instance part="GND3" gate="1" x="66.04" y="-2.54"/>
 <instance part="GND4" gate="1" x="86.36" y="-5.08"/>
-<instance part="IC1" gate="G4" x="0" y="10.16"/>
 <instance part="R8" gate="G$1" x="45.72" y="81.28" rot="R270"/>
 <instance part="R9" gate="G$1" x="45.72" y="60.96" rot="R270"/>
 <instance part="C4" gate="G$1" x="101.6" y="73.66" rot="R180"/>
@@ -2520,6 +2533,12 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="J1" gate="J$1" x="-45.72" y="66.04"/>
 <instance part="SUPPLY1" gate="G$1" x="-35.56" y="71.12"/>
 <instance part="GND7" gate="1" x="-35.56" y="58.42"/>
+<instance part="U$1" gate="G$1" x="55.88" y="71.12"/>
+<instance part="U$1" gate="G$2" x="30.48" y="12.7"/>
+<instance part="U$1" gate="G$3" x="96.52" y="20.32"/>
+<instance part="U$1" gate="G$4" x="0" y="10.16"/>
+<instance part="Q1" gate="G$1" x="-48.26" y="-17.78" rot="R180"/>
+<instance part="GND8" gate="1" x="-40.64" y="-22.86"/>
 </instances>
 <busses>
 </busses>
@@ -2542,9 +2561,9 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="2.54" y1="30.48" x2="-5.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="30.48" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-5.08" y="22.86"/>
-<pinref part="IC1" gate="G4" pin="-IN"/>
 <wire x1="-5.08" y1="12.7" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-5.08" y="12.7"/>
+<pinref part="U$1" gate="G$4" pin="-IN"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2556,6 +2575,10 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="-33.02" y1="12.7" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="15.24" x2="-33.02" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-33.02" y="12.7"/>
+<wire x1="-35.56" y1="12.7" x2="-35.56" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-35.56" y="12.7"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="-15.24" x2="-43.18" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AMP" class="0">
@@ -2568,14 +2591,14 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="17.78" y1="30.48" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <junction x="17.78" y="22.86"/>
 <wire x1="17.78" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G3" pin="+IN"/>
 <wire x1="22.86" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="10.16" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
 <junction x="22.86" y="10.16"/>
 <label x="22.86" y="7.62" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC1" gate="G4" pin="OUT"/>
 <wire x1="15.24" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
 <junction x="17.78" y="10.16"/>
+<pinref part="U$1" gate="G$2" pin="+IN"/>
+<pinref part="U$1" gate="G$4" pin="OUT"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -2601,9 +2624,9 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="101.6" y1="76.2" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G1" pin="+V"/>
 <wire x1="60.96" y1="78.74" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+<pinref part="U$1" gate="G$1" pin="+V"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="3"/>
@@ -2648,9 +2671,9 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="101.6" y1="68.58" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G1" pin="-V"/>
 <wire x1="60.96" y1="63.5" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="-V"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="1"/>
@@ -2658,12 +2681,18 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="-35.56" y1="63.5" x2="-35.56" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="1"/>
+<wire x1="-43.18" y1="-17.78" x2="-40.64" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-17.78" x2="-40.64" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC1" gate="G3" pin="OUT"/>
 <wire x1="45.72" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="U$1" gate="G$2" pin="OUT"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -2674,7 +2703,6 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="66.04" y1="12.7" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="12.7" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
 <junction x="60.96" y="12.7"/>
-<pinref part="IC1" gate="G3" pin="-IN"/>
 <wire x1="27.94" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="15.24" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
@@ -2682,6 +2710,7 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="12.7" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
 <junction x="66.04" y="12.7"/>
+<pinref part="U$1" gate="G$2" pin="-IN"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2690,15 +2719,14 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="12.7" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G2" pin="+IN"/>
 <wire x1="93.98" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="17.78" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
 <junction x="86.36" y="12.7"/>
+<pinref part="U$1" gate="G$3" pin="+IN"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="G2" pin="-IN"/>
 <wire x1="93.98" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
@@ -2706,6 +2734,7 @@ No silk outline, but tDocu layer shows pin location.
 <junction x="88.9" y="22.86"/>
 <wire x1="88.9" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$3" pin="-IN"/>
 </segment>
 </net>
 <net name="OUT" class="0">
@@ -2713,11 +2742,11 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="33.02" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G2" pin="OUT"/>
 <wire x1="111.76" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
 <junction x="116.84" y="20.32"/>
 <label x="121.92" y="20.32" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$3" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="2"/>
@@ -2730,10 +2759,10 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="66.04" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="G1" pin="+IN"/>
 <wire x1="45.72" y1="68.58" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
 <junction x="45.72" y="68.58"/>
+<pinref part="U$1" gate="G$1" pin="+IN"/>
 </segment>
 </net>
 <net name="VCC/2" class="0">
@@ -2743,17 +2772,17 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="73.66" y1="88.9" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 <label x="76.2" y="71.12" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC1" gate="G1" pin="-IN"/>
 <wire x1="53.34" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G1" pin="OUT"/>
 <wire x1="71.12" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
 <junction x="73.66" y="71.12"/>
+<pinref part="U$1" gate="G$1" pin="-IN"/>
+<pinref part="U$1" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.1524" layer="91"/>
 <label x="-5.08" y="5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC1" gate="G4" pin="+IN"/>
 <wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$4" pin="+IN"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -2766,15 +2795,15 @@ No silk outline, but tDocu layer shows pin location.
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,60.96,63.5,IC1G1,-V,GND,,,"/>
-<approved hash="104,1,60.96,78.74,IC1G1,+V,VCC,,,"/>
+<approved hash="104,1,60.96,63.5,U$1G$1,-V,GND,,,"/>
+<approved hash="104,1,60.96,78.74,U$1G$1,+V,VCC,,,"/>
 <approved hash="113,1,-41.3173,67.3777,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
